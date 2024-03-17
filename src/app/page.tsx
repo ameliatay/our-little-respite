@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Box, Button, HStack, Text } from "@chakra-ui/react";
 import Link from "next/link";
@@ -27,13 +27,13 @@ export default function Home() {
         in the meantime, tell me about you!
       </Text>
       <Text fontWeight={200}>
-        I'm always thinking about what's the next useful thing to build and I
-        want to know your thoughts.
+        I&apos;m always thinking about what&apos;s the next useful thing to
+        build and I want to know your thoughts.
       </Text>
       <HStack mt={"15px"}>
         <Button
           onClick={(e) => {
-            e.preventDefault()
+            e.preventDefault();
             window.location.href = "mailto:amelia.tay.li.jia@gmail.com";
           }}
         >
